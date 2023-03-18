@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.Navbar-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    background:  rgba(255, 255, 255, 0.815);
+    box-shadow:  20px 20px 60px #d0d0d0,
+             -20px -20px 60px #ffffff;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 1;
+    z-index: 1030;
+}
