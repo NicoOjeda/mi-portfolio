@@ -12,17 +12,23 @@
     background-size: cover;
 }
 .Home1-box{
-    background: rgba(194, 103, 103, 0.185);
+    background: rgba(103, 194, 118, 0.185);
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    padding-left: 15rem;
+    padding-top: 1rem;
+    color: 342e37;
 }
 .focus-in-contract {
 	-webkit-animation: focus-in-contract 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-contract 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: focus-in-contract 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-weight: 500;
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
 }
  @-webkit-keyframes focus-in-contract {
     0% {
@@ -53,7 +59,9 @@
   
   .focus-in-contract2 {
 	-webkit-animation: focus-in-contract 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-contract 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: focus-in-contract 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 3rem;
 }
 
  @-webkit-keyframes focus-in-contract2 {
@@ -82,4 +90,13 @@
       opacity: 1;
     }
   }
-  
+.Home1-redes{
+    margin-top: 1rem;
+}
+.redes{
+    padding: 1rem;
+    color: black;
+}
+.redes:hover{
+    color: #387D7A;
+}
