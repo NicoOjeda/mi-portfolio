@@ -9,14 +9,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 1rem;
-}
-.Navbar-btn{
-    border: 1px solid black;
-    border-radius: 20px;
-    color: black;
-    background:  rgba(255, 255, 255, 0.815);
-    box-shadow:  20px 20px 60px #d0d0d0,
-             -20px -20px 60px #ffffff;
+    --bs-nav-link-hover-color: black;
 }
 .fixed-top{
     position: fixed;
@@ -24,4 +17,121 @@
     right: 0;
     left: 1;
     z-index: 1030;
+}
+.btn {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: relative;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 5px .2px #00000035;
+    box-shadow: 1px 1px 5px .2px #00000035;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+    transition-delay: .2s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+    background:  rgba(255, 255, 255, 0.61);
+}
+.btn2 {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: relative;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 5px .2px #00000035;
+    box-shadow: 1px 1px 5px .2px #00000035;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+    transition-delay: .2s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+    background:  rgba(255, 255, 255, 0.61);
+}
+p{
+    margin: 0;
+}
+.btn:hover {
+    width: 115px;
+    transition-delay: .2s;
+}
+.btn2:hover {
+    width: 150px;
+    transition-delay: .2s;
+    padding-left: 0.2rem;
+}
+
+.btn:hover > .paragraph {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+}
+
+.btn:hover > .icon-wrapper .icon {
+    transform: scale(1.1);
+}
+.bnt:hover > .icon-wrapper .icon path {
+    stroke: black;
+}
+.btn2:hover > .paragraph {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+}
+.btn2:hover > .icon-wrapper .icon {
+    transform: scale(1.1);
+}
+.bnt2:hover > .icon-wrapper .icon path {
+    stroke: black;
+}
+
+.paragraph {
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 16px;
+    margin-right: 20px;
+    padding-left: 10px;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.icon-wrapper {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    transform: scale(.9);
+    transition: .2s linear;
+}
+.icon path {
+    stroke: #000;
+    stroke-width: 2px;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
 }
