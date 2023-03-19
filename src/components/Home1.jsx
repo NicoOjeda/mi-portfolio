@@ -8,9 +8,9 @@ export default function Home1() {
         <div className='Home1-container'>
             <Navbar/>
             <div className='Home1-box'>
-                <h2 className='focus-in-contract2'>Hola!</h2>
-                <h2 className='focus-in-contract '>Soy Nicolas Ojeda</h2>
-                <h4 className='focus-in-contract2 fs-3 text'>Desarrollador FullStack</h4>
+                <p className='focus-in-contract2'>Hola!</p>
+                <h1 className='focus-in-contract '>Soy Nicolas Ojeda</h1>
+                <p className='focus-in-contract2 fs-3 text'>Desarrollador FullStack</p>
                 <div className='Home1-redes'>
                     <a href="https://github.com/NicoOjeda" className='redes'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
