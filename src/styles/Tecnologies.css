@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Tecnologies-tecnologias{
+    min-height: 80vh;
+    background-color: #a3d8c7;
+}
+.Tecnologies-frontend{
+    min-height: 50vh;
+    width: 50%;
+    /* background-color: rgb(129, 129, 240); */
+}
+.Tecnologies-backend{
+    min-height: 50vh;
+    width: 50%;
+    /* background-color: rgb(161, 87, 87); */
+}
+.Tecnologies-h2{
+    padding-left: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+}
+.Tecnologies-h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.Tecnologies-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    width: 100%;
+    gap: 3rem;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    color: black;
+    font-family: 'Merienda', cursive;
+}
+.Tecnologies-parrafo{
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    padding-top: 1rem;
+}
+.Tecnologies-h4{
+    font-size: 26px;
+    padding-right: 0.5rem;
+}
+.Tecnologies-list{
+    list-style-type:"→ ";
+}
