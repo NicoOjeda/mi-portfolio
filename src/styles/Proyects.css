@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Proyects-container{
+    min-height: 100vh;
+    background-color:#ddede3;
+    /* background-color:#1B998B; */
+}
+.Proyects-h2{
+    padding-left: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+}
+.Proyects-box{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.Proyects-proyect{
+    width: 100%;
+    height: 60vh;
+    border-bottom: 3px solid black;
+    display: flex;
+}
+.Proyects-one{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Proyects-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.Proyects-img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.Proyects-h4{
+    
+    font-size: 35px;
+}
+.Proyects-paragraph{
+    font-size: 16px;
+    font-family: 'Merienda', cursive;
+}
+.Proyects-button {
+    width: 5em;
+    height: 2em;
+    border-radius: 30em;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0.6rem;
+}
+.Proyects-button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #bbf947 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.Proyects-button:hover::before {
+    width: 9em;
+}
