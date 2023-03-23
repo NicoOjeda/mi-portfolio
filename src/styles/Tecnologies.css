@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.Tecnologies-tecnologias{
+.Tecnologies-container{
     min-height: 80vh;
     background-color: #a3d8c7;
 }
@@ -28,6 +28,7 @@
     font-size: 35px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-weight:500;
 }
 .Tecnologies-icons{
     display: flex;
@@ -45,6 +46,10 @@
     font-size: 18px;
     font-family: 'Merienda', cursive;
     padding-top: 1rem;
+}
+.Tecnologies-parrafo2{
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
 }
 .Tecnologies-h4{
     font-size: 26px;
