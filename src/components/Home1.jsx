@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 
 export default function Home1() {
     return (
-        <div className='Home1-container'>
+        <div className='Home1-container' id='home'>
             <Navbar/>
             <div className='Home1-box'>
                 <p className='focus-in-contract2'>Hola!</p>
