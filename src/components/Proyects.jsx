@@ -57,7 +57,7 @@ export default function Proyects() {
 
 
 return (
-    <div className='Proyects-container'>
+    <div className='Proyects-container' id='proyects'>
         <h2 className='Proyects-h2'>Proyectos</h2>
         <div className='Proyects-box'>
             {
@@ -90,69 +90,8 @@ return (
                     </div>
                 </div>
             </article>
-
-                )
-            }
-            
+            )}
         </div>
     </div>
   )
 }
-
-{/* <article className='Proyects-proyect'>
-<div className='Proyects-one'>
-    <img className="Proyects-img" src='../img/portatil-amazing.jpg' alt='amazing'/>
-</div>
-<div className='Proyects-two'>
-    <h4 className='Proyects-h4'>MyTinerary</h4>
-    <p className='Proyects-paragraph'>Sitio web desarrollado para agencia de eventos. Utilización de filtros combinados, incluyendo búsqueda por nombre y categoría.</p>
-    <p className='Proyects-paragraph'>React - Node js - Express js - Mongo Db - React Native</p>
-    <div className='Proyects-boxbutton'> 
-        <button className='Proyects-button'>Ver demo</button>
-        <button className='Proyects-button'>Github</button>
-        <button className='Proyects-button'>Mobile</button>
-    </div>
-</div>
-</article>
-<article className='Proyects-proyect'>
-<div className='Proyects-one'>
-    <img className="Proyects-img" src='../img/portatil-amazing.jpg' alt='amazing'/>
-</div>
-<div className='Proyects-two'>
-    <h4 className='Proyects-h4'>Mindy Petshop</h4>
-    <p className='Proyects-paragraph'>Ecommerce orientado a la venta de productos elaborado. Cuenta con un carrito de compras, muestra foto de los productos y tiene un filtrado por nombre del articulo o por precio del mismo.</p>
-    <p className='Proyects-paragraph'>Html - Css - Bootstrap - Javascript</p>
-    <div className='Proyects-boxbutton'> 
-        <button className='Proyects-button'>Ver demo</button>
-        <button className='Proyects-button'>Github</button>
-    </div>
-</div>
-</article>
-<article className='Proyects-proyect'>
-<div className='Proyects-one'>
-    <img className="Proyects-img" src='../img/portatil-amazing.jpg' alt='amazing'/>
-</div>
-<div className='Proyects-two'>
-    <h4 className='Proyects-h4'>Amazing Events</h4>
-    <p className='Proyects-paragraph'>Sitio web desarrollado para agencia de eventos. Utilización de filtros combinados, incluyendo búsqueda por nombre y categoría.</p>
-    <p className='Proyects-paragraph'>Html - Css - Bootstrap - Javascript</p>
-    <div className='Proyects-boxbutton'> 
-        <button className='Proyects-button'>Ver demo</button>
-        <button className='Proyects-button'>Github</button>
-    </div>
-</div>
-</article>
-<article className='Proyects-proyect'>
-<div className='Proyects-one'>
-    <img className="Proyects-img" src='../img/portatil-amazing.jpg' alt='amazing'/>
-</div>
-<div className='Proyects-two'>
-    <h4 className='Proyects-h4'>Mighty Ducks</h4>
-    <p className='Proyects-paragraph'>Sitio web de liga de hockey aplicando full-responsive design.</p>
-    <p className='Proyects-paragraph'>Html - Css</p>
-    <div className='Proyects-boxbutton'> 
-        <button className='Proyects-button'>Ver demo</button>
-        <button className='Proyects-button'>Github</button>
-    </div>
-</div>
-</article> */}
