@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link as LinkRouter } from "react-router-dom";
 import '../styles/Navbar.css'
 
 export default function Navbar() {
   return (
     <>
         <nav className="nav d-flex justify-content-center fixed-top">
-            <LinkRouter className="nav-link" href="#">
+            <a className="nav-link" href="#home">
               <button className="btn">
                 <p className="paragraph">Inicio</p>
                 <span className="icon-wrapper">
@@ -15,8 +14,8 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </LinkRouter>
-            <LinkRouter className="nav-link" href="#">
+            </a>
+            <a className="nav-link" href="#about">
               <button className="btn2">
                 <p className="paragraph">Sobre mi</p>
                 <span className="icon-wrapper">
@@ -25,8 +24,8 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </LinkRouter>
-            <LinkRouter className="nav-link" href="#">
+            </a>
+            <a className="nav-link" href="#proyects">
               <button className="btn2">
                 <p className="paragraph">Proyectos</p>
                 <span className="icon-wrapper">
@@ -35,8 +34,8 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </LinkRouter>
-            <LinkRouter className="nav-link" href="#">
+            </a>
+            <a className="nav-link" href="#contact">
               <button className="btn2">
                 <p className="paragraph">Contacto</p>
                 <span className="icon-wrapper">
@@ -45,7 +44,7 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </LinkRouter>
+            </a>
         </nav>
     </>
   )
