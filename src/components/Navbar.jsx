@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link} from "react-router-dom";
 import '../styles/Navbar.css'
 
 export default function Navbar() {
   return (
     <>
         <nav className="nav d-flex justify-content-center fixed-top">
-            <a className="nav-link" href="#home">
+            <Link NavLink className="nav-link" to="Home1">
               <button className="btn">
                 <p className="paragraph">Inicio</p>
                 <span className="icon-wrapper">
@@ -14,8 +15,8 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </a>
-            <a className="nav-link" href="#about">
+            </Link>
+            <Link className="nav-link" to="About">
               <button className="btn2">
                 <p className="paragraph">Sobre mi</p>
                 <span className="icon-wrapper">
@@ -24,8 +25,8 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </a>
-            <a className="nav-link" href="#proyects">
+            </Link>
+            <Link className="nav-link" to="proyects" activeClassName="">
               <button className="btn2">
                 <p className="paragraph">Proyectos</p>
                 <span className="icon-wrapper">
@@ -34,8 +35,8 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </a>
-            <a className="nav-link" href="#contact">
+            </Link>
+            <Link className="nav-link" to="#">
               <button className="btn2">
                 <p className="paragraph">Contacto</p>
                 <span className="icon-wrapper">
@@ -44,7 +45,7 @@ export default function Navbar() {
                   </svg>
                 </span>
               </button>
-            </a>
+            </Link>
         </nav>
     </>
   )
