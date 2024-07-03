@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
         <nav className="nav d-flex justify-content-center fixed-top">
-            <Link NavLink className="nav-link" to="Home1">
+            <Link className="nav-link" to="Home1">
               <button className="btn">
                 <p className="paragraph">Inicio</p>
                 <span className="icon-wrapper">
@@ -26,7 +26,7 @@ export default function Navbar() {
                 </span>
               </button>
             </Link>
-            <Link className="nav-link" to="proyects" activeClassName="">
+            <Link className="nav-link" to="proyects" >
               <button className="btn2">
                 <p className="paragraph">Proyectos</p>
                 <span className="icon-wrapper">
