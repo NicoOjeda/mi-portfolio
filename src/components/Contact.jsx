@@ -1,6 +1,7 @@
 import '../styles/Contact.css'
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import swal from 'sweetalert';
 
 function Contact() {
 
@@ -23,15 +24,36 @@ function Contact() {
 function handleForm(e){
         e.preventDefault()
         axios.post('http://localhost:8000/comment/',comentario)
-        .then(res=> console.log(res))
+        .then(res=> {
+            if(res.data.success){
+                swal({
+                    title: "Enviado",
+                text: "Gracias por tu mensaje!",
+                icon: "success",
+                button: false,
+                timer: 3000,
+                });
+            }
+            console.log(res)
+        })
         .catch(error=> console.log(error))
     }
 
-    useEffect(()=>{
-        axios.get('http://localhost:8000/comment/')
-        .then(res=> console.log(res.data.response))
-        .catch(error=> console.log(error))
-    },[])
+    // useEffect(()=>{
+    //     axios.get('http://localhost:8000/comment/')
+    //     .then(res=> {if(res.data.success){
+    //         swal({
+    //             title: "Enviado",
+    //             text: "Gracias por tu mensaje!",
+    //             icon: "success",
+    //             button: false,
+    //             timer: 3000,
+    //         });
+    //     }
+    // })
+    //     .catch(error=> console.log(error))
+        
+    // },[])
 
     
   return (
