@@ -94,3 +94,18 @@ input{
 .Contact-button:hover::before {
     width: 9em;
 }
+.swal-overlay {
+    background-color: rgba(188, 248, 235, 0.781);
+    
+}
+.swal-modal {
+    border: 3px solid rgb(2, 2, 2);
+}
+.swal-text {
+    padding: 0;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: #61534e;
+    font-size: 25px;
+}
