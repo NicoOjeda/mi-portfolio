@@ -5,7 +5,7 @@ import Tecnologies from './Tecnologies'
 export default function About() {
   return (
     <>
-      <div className='About-container' id='about'>
+      <div className='About-container' id='About'>
         <h2 className='About-h2'>Sobre mi</h2>
         <div className='d-flex'>
           <section className='About-sobremi'>

@@ -57,7 +57,7 @@ function handleForm(e){
 
     
   return (
-    <div className="Contact-container">
+    <div className="Contact-container" id="contact">
         <div>
             <h2 className="Contact-h2">Contacto</h2>
         </div>
