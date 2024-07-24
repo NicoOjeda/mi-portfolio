@@ -127,6 +127,9 @@ input{
     display: flex;
     align-items: center;
 }
+.Contact-redes:hover{
+    color: #0fd850;
+}
 .Contact-p{
     margin-left: 1rem;
 }
