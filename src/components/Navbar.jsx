@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link} from "react-router-dom";
+import { Link, animateScroll as scroll} from "react-scroll";
 import '../styles/Navbar.css'
 
 export default function Navbar() {
   return (
     <>
         <nav className="nav d-flex justify-content-center fixed-top">
-            <Link className="nav-link" to="Home1">
+            <Link className="nav-link" to="Home1" spy={true} smooth={true}  duration={500}>
               <button className="btn">
                 <p className="paragraph">Inicio</p>
                 <span className="icon-wrapper">
@@ -16,7 +16,7 @@ export default function Navbar() {
                 </span>
               </button>
             </Link>
-            <Link className="nav-link" to="About">
+            <Link className="nav-link" to="About" spy={true} smooth={true}  duration={500}>
               <button className="btn2">
                 <p className="paragraph">Sobre mi</p>
                 <span className="icon-wrapper">
@@ -26,7 +26,7 @@ export default function Navbar() {
                 </span>
               </button>
             </Link>
-            <Link className="nav-link" to="proyects" >
+            <Link className="nav-link" to="proyects" spy={true} smooth={true}  duration={500}>
               <button className="btn2">
                 <p className="paragraph">Proyectos</p>
                 <span className="icon-wrapper">
@@ -36,7 +36,7 @@ export default function Navbar() {
                 </span>
               </button>
             </Link>
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="contact" spy={true} smooth={true}  duration={500}>
               <button className="btn2">
                 <p className="paragraph">Contacto</p>
                 <span className="icon-wrapper">
