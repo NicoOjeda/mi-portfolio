@@ -137,3 +137,30 @@ p{
     -webkit-transition: .2s linear;
     transition: .2s linear;
 }
+.nave{
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .ocultar{
+        display:none !important
+    }
+    .nave{
+        display: block;
+    }
+    .fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        left: 1;
+        z-index: 1030;
+    }
+    .dropdown-toggle::after {
+        border: none;
+    }
+    .dropdown-toggle{
+        border: none;
+        background-color: none;
+        
+    }
+  }
