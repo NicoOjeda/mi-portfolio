@@ -3,9 +3,12 @@ import { Link, animateScroll as scroll} from "react-scroll";
 import '../styles/Navbar.css'
 
 export default function Navbar() {
+
+
+
   return (
     <>
-        <nav className="nav d-flex justify-content-center fixed-top">
+        <nav className="nav d-flex justify-content-center fixed-top ocultar">
             <Link className="nav-link" to="Home1" spy={true} smooth={true}  duration={500}>
               <button className="btn">
                 <p className="paragraph">Inicio</p>
@@ -47,6 +50,27 @@ export default function Navbar() {
               </button>
             </Link>
         </nav>
+        {/* <nav className="nav">
+        <button className='abrir-menu'>abrir</button>
+          <ul className='nav-list'>
+            <li> <Link to="Home1">Inicio</Link></li>
+            <li><Link to="About">Sobre mi</Link></li>
+            <li><Link to="proyects">Proyectos</Link></li>
+            <li><Link to="contact">Contacto</Link></li>
+          </ul>
+        </nav> */}
+        <div class="dropdown nave fixed">
+          <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </button>
+          <ul class="dropdown-menu">
+            <li><Link class="dropdown-item" to="Home1" type="button">Inicio</Link></li>
+            <li><Link class="dropdown-item" to="About" type="button">Sobre mi</Link></li>
+            <li><Link class="dropdown-item" to="proyects" type="button">Proyectos</Link></li>
+            <li><Link class="dropdown-item" to="contact" type="button">Contacto</Link></li>
+          </ul>
+        </div>
+        
     </>
   )
 }
